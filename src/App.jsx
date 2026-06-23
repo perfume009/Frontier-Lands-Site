@@ -24,7 +24,7 @@ const App = () => {
   if (loading) return <Preloader />
 
   return (
-    <>
+    <div className="app-fade-in">
       <Navbar />
       <Hero />
       <About />
@@ -32,7 +32,7 @@ const App = () => {
       <ServerStatus />
       <Rules />
       <Footer />
-    </>
+    </div>
   )
 }
 
