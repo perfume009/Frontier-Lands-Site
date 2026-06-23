@@ -32,6 +32,7 @@ nav {
 .logo {
   font-size: 20px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase;
   display: flex; align-items: center; gap: 10px;
+  text-decoration: none; color: inherit;
 }
 .logo img { height: 32px; width: 32px; border-radius: 6px; }
 .logo span { color: #c9a84c; }

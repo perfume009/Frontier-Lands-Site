@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="logo"><img src="/logo.png" alt="Frontier Lands" /> Frontier Lands</div>
+      <a href="#home" className="logo"><img src="/logo.png" alt="Frontier Lands" /> Frontier Lands</a>
       <ul className={`nav-links ${open ? 'open' : ''}`}>
         {links.map(l => (
           <li key={l.href}><a href={l.href} onClick={handleClick}>{l.label}</a></li>
