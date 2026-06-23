@@ -285,9 +285,9 @@ section { text-align: center; }
 }
 
 /* Rules */
-.rules-list { columns: 2 280px; column-gap: 32px; }
+.rules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; text-align: left; align-items: start; }
+.rules-grid .rules-list { margin: 0; padding: 0; list-style: none; }
 .rules-list li {
-  break-inside: avoid; list-style: none;
   padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.04);
   font-size: 15px; display: flex; align-items: flex-start; gap: 12px;
   transition: padding-left .3s;
@@ -316,6 +316,15 @@ section { text-align: center; }
 }
 .news-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
 .news-item p { color: #7a7260; font-size: 14px; line-height: 1.6; }
+
+
+
+/* Rules more */
+.rules-more {
+  text-align: center; margin-top: 40px; color: #5a5040; font-size: 14px;
+}
+.rules-more a { color: #c9a84c; text-decoration: none; }
+.rules-more a:hover { text-decoration: underline; }
 
 /* Footer */
 footer {
@@ -355,7 +364,7 @@ footer a:hover { color: #c9a84c; }
   .btn-download { padding: 14px 32px; font-size: 15px; width: 100%; justify-content: center; }
   .features-grid { gap: 16px; }
   .factions-grid { gap: 16px; }
-  .rules-list { columns: 1; }
+  .rules-grid { grid-template-columns: 1fr; gap: 0; }
   .rules-list li { padding: 12px 0; font-size: 14px; }
   .news-item { flex-direction: column; gap: 6px; padding: 16px 20px; }
   .news-date { min-width: auto; }

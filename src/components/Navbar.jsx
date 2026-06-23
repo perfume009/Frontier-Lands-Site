@@ -8,7 +8,7 @@ const Navbar = () => {
     { href: '#factions', label: 'Фракции' },
     { href: '#server', label: 'Лаунчер' },
     { href: '#rules', label: 'Правила' },
-    { href: '#news', label: 'Новости' },
+
   ];
 
   const handleClick = () => setOpen(false);

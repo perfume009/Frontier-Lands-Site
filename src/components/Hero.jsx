@@ -25,7 +25,7 @@ const Hero = () => {
           />
           <br />
           <SplitText
-            text="Minecraft RP сервер."
+            text="Minecraft RP сервер"
             tag="span"
             className="hero-line"
             delay={60}
