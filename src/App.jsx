@@ -5,6 +5,7 @@ import About from './components/About'
 import Factions from './components/Factions'
 import ServerStatus from './components/ServerStatus'
 import Rules from './components/Rules'
+import Roadmap from './components/Roadmap'
 import Footer from './components/Footer'
 import Preloader from './components/Preloader'
 
@@ -31,6 +32,7 @@ const App = () => {
       <Factions />
       <ServerStatus />
       <Rules />
+      <Roadmap />
       <Footer />
     </div>
   )
